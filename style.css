@@ -1,0 +1,102 @@
+
+
+#title {
+    display: flex;
+    color : white;
+    justify-content: center;
+    background-color: red;
+    height: 300 px;
+    width: 5 px;
+    font-size: 10 em;
+    font-family: cursive;
+
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vh;
+    justify-content: center;
+    margin-left: 150px;
+}
+    
+
+.cell {
+    
+    width: 20vh;
+    height: 20vh;
+    font-size: 12vh;
+    border: 5px solid black;
+    box-shadow: 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+#playerOne{
+    padding: 5px;
+    margin: 5px;
+    
+
+}
+#playerTwo{
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 50px
+
+}
+
+#playerThree{
+    padding: 5px;
+    margin: 5px;
+    margin-left: 5px;
+
+}
+#turn{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    height: 10ox;
+    width: 150px;
+    font-size: larger;
+    color: white;
+    background-color: green;
+
+}
+
+#startover{
+    margin-top:10px;
+    margin-left: 400px;
+    height: 50px;
+    width: 100 px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+
+}
+#playerSection {
+    display: flex;
+    background-color: ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+
+
+}
+
+#namePlayers{
+    margin-left: 350px;
+
+}
+
+#message{
+    margin-left: 350px;
+}
+#onePlayerMode {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
